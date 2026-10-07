@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Клиника «Белый кедр» — стоматология</title>
+    <title>Olzhas Dental — стоматологическая клиника</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -126,9 +126,25 @@
 
         .logo {
             font-family: Literata, serif;
-            font-weight: 700;
-            font-size: 20px;
-            text-decoration: none
+            font-weight: 500;
+            font-size: 21px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: .01em
+        }
+
+        .logo b {
+            font-weight: 700
+        }
+
+        .logo span {
+            color: var(--mute)
+        }
+
+        .logo b {
+            color: var(--ink)
         }
 
         nav {
@@ -707,7 +723,12 @@
         </symbol>
     </svg>
     <header>
-        <div class="wrap"><a class="logo" href="#top">Белый кедр</a>
+        <div class="wrap"><a class="logo" href="#top" aria-label="Olzhas Dental"><svg viewBox="0 0 120 140" width="26"
+                    height="30" fill="none" aria-hidden="true">
+                    <path
+                        d="M60 8c-16-10-44-4-48 22-3 20 8 34 12 56 3 18 6 48 18 48 10 0 8-30 18-30s8 30 18 30c12 0 15-30 18-48 4-22 15-36 12-56C104 4 76-2 60 8Z"
+                        fill="var(--acc)" />
+                </svg><span><b>Olzhas</b> Dental</span></a>
             <button class="menu" id="menu" aria-label="Меню" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round">
                     <path d="M4 7h16M4 12h16M4 17h16" />
@@ -951,7 +972,7 @@
                         </div>
                         <div>
                             <dt>Почта</dt>
-                            <dd>info@belyi-kedr.example</dd>
+                            <dd>info@olzhasdental.example</dd>
                         </div>
                         <div>
                             <dt>Адрес</dt>
@@ -968,7 +989,7 @@
     </main>
 
     <footer>
-        <div class="wrap"><span>© 2026 Клиника «Белый кедр»</span><span>Есть противопоказания, необходима консультация
+        <div class="wrap"><span>© 2026 Olzhas Dental</span><span>Есть противопоказания, необходима консультация
                 специалиста.</span></div>
     </footer>
     <script>
